@@ -1173,12 +1173,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lucianobapo/erpnet-models.git",
-                "reference": "dad15475cc441bf3abde62ba04535baf532d63d6"
+                "reference": "b168ff0f6a74957ff58712b6eefa3641baddde08"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lucianobapo/erpnet-models/zipball/dad15475cc441bf3abde62ba04535baf532d63d6",
-                "reference": "dad15475cc441bf3abde62ba04535baf532d63d6",
+                "url": "https://api.github.com/repos/lucianobapo/erpnet-models/zipball/b168ff0f6a74957ff58712b6eefa3641baddde08",
+                "reference": "b168ff0f6a74957ff58712b6eefa3641baddde08",
                 "shasum": ""
             },
             "require": {
@@ -1201,7 +1201,7 @@
                     "email": "luciano.bapo@gmail.com"
                 }
             ],
-            "time": "2016-12-09 05:12:41"
+            "time": "2016-12-09 22:04:05"
         },
         {
             "name": "ilhanet/erpnet-widget-resource",
@@ -1209,12 +1209,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lucianobapo/erpnet-widget-resource.git",
-                "reference": "3b5a607dc2f8b203fedd14bba71189fd4ffdf7c0"
+                "reference": "226abc8b65cef4b945b3cbd4d245f0f6595d9c7d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lucianobapo/erpnet-widget-resource/zipball/3b5a607dc2f8b203fedd14bba71189fd4ffdf7c0",
-                "reference": "3b5a607dc2f8b203fedd14bba71189fd4ffdf7c0",
+                "url": "https://api.github.com/repos/lucianobapo/erpnet-widget-resource/zipball/226abc8b65cef4b945b3cbd4d245f0f6595d9c7d",
+                "reference": "226abc8b65cef4b945b3cbd4d245f0f6595d9c7d",
                 "shasum": ""
             },
             "require": {
@@ -1239,7 +1239,7 @@
                     "email": "luciano.bapo@gmail.com"
                 }
             ],
-            "time": "2016-12-09 05:14:20"
+            "time": "2016-12-09 22:04:38"
         },
         {
             "name": "ircmaxell/password-compat",
