@@ -3,7 +3,10 @@
 
 ssh 104.198.25.167
 
-rsync -rvztPhe ssh /home/luciano/code/funny-joke-v2/.env.production 104.198.25.167:code/funny-joke-v2/.env
+rsync -rvztPhe ssh /home/luciano/code/funny-joke-v2/resources/views/vendor/erpnetWidgetResource/unversioned/home.blade.php 104.198.25.167:code/funny-joke-v2/resources/views/vendor/erpnetWidgetResource/unversioned/home.blade.php
+rsync -rvztPhe ssh /home/luciano/code/funny-joke-v2/resources/views/vendor/erpnetWidgetResource/unversioned/navbar.blade.php 104.198.25.167:code/funny-joke-v2/resources/views/vendor/erpnetWidgetResource/unversioned/navbar.blade.php
+
+rsync -rvztPhe ssh /home/luciano/code/funny-joke-v2/res 104.198.25.167:code/funny-joke-v2/.env
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
 [![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)

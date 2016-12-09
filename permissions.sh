@@ -82,3 +82,6 @@ find storage/proxies/ -type d -exec chmod g+s {} \;
 
 setfacl -dR -m u::rwx storage/proxies/
 setfacl -dR -m g::rwx storage/proxies/
+
+#fix to unversioned files
+chmod -R ugo+w resources/views/vendor/erpnetWidgetResource/unversioned/
