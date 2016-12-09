@@ -1209,12 +1209,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lucianobapo/erpnet-widget-resource.git",
-                "reference": "1e77f791df3b97ddbba40af3a0b53c7d84283f9e"
+                "reference": "2938fd0476dc760d5b2792ecc03ef45edbc40dea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lucianobapo/erpnet-widget-resource/zipball/1e77f791df3b97ddbba40af3a0b53c7d84283f9e",
-                "reference": "1e77f791df3b97ddbba40af3a0b53c7d84283f9e",
+                "url": "https://api.github.com/repos/lucianobapo/erpnet-widget-resource/zipball/2938fd0476dc760d5b2792ecc03ef45edbc40dea",
+                "reference": "2938fd0476dc760d5b2792ecc03ef45edbc40dea",
                 "shasum": ""
             },
             "require": {
@@ -1239,7 +1239,7 @@
                     "email": "luciano.bapo@gmail.com"
                 }
             ],
-            "time": "2016-12-09 22:19:26"
+            "time": "2016-12-09 22:30:47"
         },
         {
             "name": "ircmaxell/password-compat",
