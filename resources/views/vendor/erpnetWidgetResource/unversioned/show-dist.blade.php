@@ -1,13 +1,13 @@
 <div class="panel panel-default">
     <div class="panel-heading">
-        <h1>{{ $joke->title }}</h1>
+        <h1>{{ $dataModelSelected['title'] }}</h1>
     </div>
 
     <div class="panel-body text-center">
-        <p><em>{{ $joke->description }}</em></p>
-        @if(isset($joke->file))
+        <p><em>{{ $dataModelSelected['description'] }}</em></p>
+        @if(isset($dataModelSelected['file']))
             <p>
-                <img class="img-responsive" src="{{ $fileName }}">
+                <img class="img-responsive" src="{{ $dataModelSelected->fileImageUrlField('file') }}">
             </p>
         @else
             <div class="well"><em>Sem Imagem</em></div>
@@ -35,19 +35,19 @@
         </div>
 
         {{--Botão "Fazer Teste"--}}
-        @if(!is_null($jokeMakeButton))
+        @if(isset($jokeMakeButton) && !is_null($jokeMakeButton))
             <p><a href="{{ $jokeMakeButton }}" class="btn btn-primary">Fazer Teste</a></p>
         @endif
 
         {{--Botão "Refazer Teste"--}}
-        @if(!is_null($jokeReMakeButton))
+        @if(isset($jokeReMakeButton) && !is_null($jokeReMakeButton))
             <p>
                 <a href="{{ $jokeReMakeButton }}" class="btn btn-primary">Tente novamente</a>
             </p>
         @endif
 
         {{--Botão "Login"--}}
-        @if(!is_null($loginButton))
+        @if(isset($loginButton) && !is_null($loginButton))
             <p>
                 <a href="{{ $loginButton }}" class="btn btn-primary">
                     <i class="fa fa-facebook-official"></i> Conecte-se com Facebook
@@ -56,9 +56,9 @@
         @endif
 
         @if(config('app.env')=='local')
-            @include('unversioned.home-dist')
+            @include('erpnetWidgetResource::unversioned.home-dist')
         @else
-            @include('unversioned.home')
+            @include('erpnetWidgetResource::unversioned.home')
         @endif
 
     </div>

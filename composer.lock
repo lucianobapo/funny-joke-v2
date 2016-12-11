@@ -1473,12 +1473,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lucianobapo/erpnet-models.git",
-                "reference": "3845a63cfef3332fbbf25d19bfa1b65bd07b71c3"
+                "reference": "9fa2d9a8b0a4d49e9972b0087b0ea7fd90371d74"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lucianobapo/erpnet-models/zipball/3845a63cfef3332fbbf25d19bfa1b65bd07b71c3",
-                "reference": "3845a63cfef3332fbbf25d19bfa1b65bd07b71c3",
+                "url": "https://api.github.com/repos/lucianobapo/erpnet-models/zipball/9fa2d9a8b0a4d49e9972b0087b0ea7fd90371d74",
+                "reference": "9fa2d9a8b0a4d49e9972b0087b0ea7fd90371d74",
                 "shasum": ""
             },
             "require": {
@@ -1502,7 +1502,7 @@
                     "email": "luciano.bapo@gmail.com"
                 }
             ],
-            "time": "2016-12-11 00:01:37"
+            "time": "2016-12-11 23:12:30"
         },
         {
             "name": "ilhanet/erpnet-widget-resource",
@@ -1510,12 +1510,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lucianobapo/erpnet-widget-resource.git",
-                "reference": "2938fd0476dc760d5b2792ecc03ef45edbc40dea"
+                "reference": "c09c22c815d6eccba8f07d42fbc8b9c8deaf3fb5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lucianobapo/erpnet-widget-resource/zipball/2938fd0476dc760d5b2792ecc03ef45edbc40dea",
-                "reference": "2938fd0476dc760d5b2792ecc03ef45edbc40dea",
+                "url": "https://api.github.com/repos/lucianobapo/erpnet-widget-resource/zipball/c09c22c815d6eccba8f07d42fbc8b9c8deaf3fb5",
+                "reference": "c09c22c815d6eccba8f07d42fbc8b9c8deaf3fb5",
                 "shasum": ""
             },
             "require": {
@@ -1540,7 +1540,7 @@
                     "email": "luciano.bapo@gmail.com"
                 }
             ],
-            "time": "2016-12-09 22:30:47"
+            "time": "2016-12-11 23:29:25"
         },
         {
             "name": "intervention/image",
@@ -1984,12 +1984,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "afccec302f7a4b561bdd08d2fff96a2ff39b9cb9"
+                "reference": "ba6bd9e35842e1683a08678e7010a4adaaa63e14"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/afccec302f7a4b561bdd08d2fff96a2ff39b9cb9",
-                "reference": "afccec302f7a4b561bdd08d2fff96a2ff39b9cb9",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/ba6bd9e35842e1683a08678e7010a4adaaa63e14",
+                "reference": "ba6bd9e35842e1683a08678e7010a4adaaa63e14",
                 "shasum": ""
             },
             "require": {
@@ -2104,7 +2104,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2016-12-10 16:25:06"
+            "time": "2016-12-11 14:21:12"
         },
         {
             "name": "laravelcollective/html",
@@ -2655,12 +2655,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "d5eebf72147845a25cda2ec354f325eb4b310e45"
+                "reference": "301c34373db1f978aa5d7f4b2965b1b63448e7eb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/d5eebf72147845a25cda2ec354f325eb4b310e45",
-                "reference": "d5eebf72147845a25cda2ec354f325eb4b310e45",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/301c34373db1f978aa5d7f4b2965b1b63448e7eb",
+                "reference": "301c34373db1f978aa5d7f4b2965b1b63448e7eb",
                 "shasum": ""
             },
             "require": {
@@ -2698,7 +2698,7 @@
                 "parser",
                 "php"
             ],
-            "time": "2016-12-09 21:41:46"
+            "time": "2016-12-11 15:47:47"
         },
         {
             "name": "paragonie/random_compat",
@@ -4887,12 +4887,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "de164acc2f2bb0b79beb892a36260264b2a03233"
+                "reference": "d2bd37e5d6ac6c8bc38f5dab9301d0696d8f6134"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/de164acc2f2bb0b79beb892a36260264b2a03233",
-                "reference": "de164acc2f2bb0b79beb892a36260264b2a03233",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/d2bd37e5d6ac6c8bc38f5dab9301d0696d8f6134",
+                "reference": "d2bd37e5d6ac6c8bc38f5dab9301d0696d8f6134",
                 "shasum": ""
             },
             "require": {
@@ -4913,7 +4913,7 @@
                 "sebastian/diff": "~1.2",
                 "sebastian/environment": "^1.3.4 || ^2.0",
                 "sebastian/exporter": "~2.0",
-                "sebastian/global-state": "~1.0",
+                "sebastian/global-state": "^1.0 || ^2.0",
                 "sebastian/object-enumerator": "~2.0",
                 "sebastian/resource-operations": "~1.0",
                 "sebastian/version": "~1.0|~2.0",
@@ -4961,7 +4961,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2016-12-09 02:48:53"
+            "time": "2016-12-11 21:15:00"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
