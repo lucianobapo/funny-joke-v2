@@ -1473,12 +1473,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lucianobapo/erpnet-models.git",
-                "reference": "90e086a32c50284d38d590b336bab7602e286a75"
+                "reference": "27c0335a8f8dad52b21094f5053163f8d29b2b22"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lucianobapo/erpnet-models/zipball/90e086a32c50284d38d590b336bab7602e286a75",
-                "reference": "90e086a32c50284d38d590b336bab7602e286a75",
+                "url": "https://api.github.com/repos/lucianobapo/erpnet-models/zipball/27c0335a8f8dad52b21094f5053163f8d29b2b22",
+                "reference": "27c0335a8f8dad52b21094f5053163f8d29b2b22",
                 "shasum": ""
             },
             "require": {
@@ -1502,7 +1502,7 @@
                     "email": "luciano.bapo@gmail.com"
                 }
             ],
-            "time": "2016-12-12 03:37:54"
+            "time": "2016-12-12 03:47:55"
         },
         {
             "name": "ilhanet/erpnet-widget-resource",
@@ -1510,12 +1510,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lucianobapo/erpnet-widget-resource.git",
-                "reference": "c09c22c815d6eccba8f07d42fbc8b9c8deaf3fb5"
+                "reference": "687082b871ed6640338295c0aa3ef33b58e17d7b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lucianobapo/erpnet-widget-resource/zipball/c09c22c815d6eccba8f07d42fbc8b9c8deaf3fb5",
-                "reference": "c09c22c815d6eccba8f07d42fbc8b9c8deaf3fb5",
+                "url": "https://api.github.com/repos/lucianobapo/erpnet-widget-resource/zipball/687082b871ed6640338295c0aa3ef33b58e17d7b",
+                "reference": "687082b871ed6640338295c0aa3ef33b58e17d7b",
                 "shasum": ""
             },
             "require": {
@@ -1540,7 +1540,7 @@
                     "email": "luciano.bapo@gmail.com"
                 }
             ],
-            "time": "2016-12-11 23:29:25"
+            "time": "2016-12-12 03:47:59"
         },
         {
             "name": "intervention/image",
