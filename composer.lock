@@ -1473,12 +1473,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lucianobapo/erpnet-models.git",
-                "reference": "9fa2d9a8b0a4d49e9972b0087b0ea7fd90371d74"
+                "reference": "90e086a32c50284d38d590b336bab7602e286a75"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lucianobapo/erpnet-models/zipball/9fa2d9a8b0a4d49e9972b0087b0ea7fd90371d74",
-                "reference": "9fa2d9a8b0a4d49e9972b0087b0ea7fd90371d74",
+                "url": "https://api.github.com/repos/lucianobapo/erpnet-models/zipball/90e086a32c50284d38d590b336bab7602e286a75",
+                "reference": "90e086a32c50284d38d590b336bab7602e286a75",
                 "shasum": ""
             },
             "require": {
@@ -1502,7 +1502,7 @@
                     "email": "luciano.bapo@gmail.com"
                 }
             ],
-            "time": "2016-12-11 23:12:30"
+            "time": "2016-12-12 03:37:54"
         },
         {
             "name": "ilhanet/erpnet-widget-resource",
