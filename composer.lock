@@ -1510,12 +1510,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lucianobapo/erpnet-widget-resource.git",
-                "reference": "50749f16a077d0dc6fbdca0a145095599d0e679f"
+                "reference": "e8cab8748b5315a99f564f661b8e4028e8e1cd86"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lucianobapo/erpnet-widget-resource/zipball/50749f16a077d0dc6fbdca0a145095599d0e679f",
-                "reference": "50749f16a077d0dc6fbdca0a145095599d0e679f",
+                "url": "https://api.github.com/repos/lucianobapo/erpnet-widget-resource/zipball/e8cab8748b5315a99f564f661b8e4028e8e1cd86",
+                "reference": "e8cab8748b5315a99f564f661b8e4028e8e1cd86",
                 "shasum": ""
             },
             "require": {
@@ -1540,7 +1540,7 @@
                     "email": "luciano.bapo@gmail.com"
                 }
             ],
-            "time": "2016-12-13 17:02:34"
+            "time": "2016-12-13 17:12:05"
         },
         {
             "name": "intervention/image",
