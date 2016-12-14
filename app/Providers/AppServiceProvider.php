@@ -4,6 +4,7 @@ namespace App\Providers;
 
 use ErpNET\Migrates\Providers\ErpnetMigratesServiceProvider;
 use ErpNET\Models\Providers\ErpnetModelsServiceProvider;
+use ErpNET\SocialAuth\Providers\ErpnetSocialAuthServiceProvider;
 use ErpNET\WidgetResource\Providers\ErpnetWidgetResourceServiceProvider;
 use Illuminate\Support\ServiceProvider;
 
@@ -36,5 +37,8 @@ class AppServiceProvider extends ServiceProvider
 
         if (class_exists(ErpnetWidgetResourceServiceProvider::class))
             $this->app->register(ErpnetWidgetResourceServiceProvider::class);
+
+        if (class_exists(ErpnetSocialAuthServiceProvider::class))
+            $this->app->register(ErpnetSocialAuthServiceProvider::class);
     }
 }

@@ -8,6 +8,7 @@
     "require": {
         "php": ">=5.6.4",
         "laravel/framework": "5.3.*",
+        "ilhanet/erpnet-social-auth": "dev-master",
         "ilhanet/erpnet-helper": "dev-master",
         "ilhanet/erpnet-core": "dev-master",
         "ilhanet/erpnet-migrates": "dev-master",

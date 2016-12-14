@@ -11,9 +11,13 @@
 |
 */
 
-//Route::get('/', function () {
-//    return view('welcome');
-//});
+Route::get('/', function () {
+    return view('welcome');
+});
 
 //Route::get('/', ['uses'=>'\ErpNET\Models\v1\Controllers\PostController@home']);
 //Route::resource('partners', '\ErpNET\Models\Controllers\PartnersController');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index');

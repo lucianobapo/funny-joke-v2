@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e397871e8047f4a163d033b790b00872",
-    "content-hash": "88891eac3fb987d55a8b62e59599ccfe",
+    "hash": "c50114c39bd8fe219bcfb158a0772b2a",
+    "content-hash": "552bda506a36e9814076e7e235cd2d6c",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
@@ -1133,12 +1133,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "471026d23a14f6eadd0147eb5697f48ebe6adec8"
+                "reference": "423bf39e6d3a6f1cbe209d76bf9ed4bdf1235426"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/471026d23a14f6eadd0147eb5697f48ebe6adec8",
-                "reference": "471026d23a14f6eadd0147eb5697f48ebe6adec8",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/423bf39e6d3a6f1cbe209d76bf9ed4bdf1235426",
+                "reference": "423bf39e6d3a6f1cbe209d76bf9ed4bdf1235426",
                 "shasum": ""
             },
             "require": {
@@ -1187,7 +1187,7 @@
                 "rest",
                 "web service"
             ],
-            "time": "2016-11-15 18:22:40"
+            "time": "2016-12-13 19:31:19"
         },
         {
             "name": "guzzlehttp/promises",
@@ -1473,12 +1473,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lucianobapo/erpnet-models.git",
-                "reference": "98160d86f8f3260069bacdb73d79bd4073d0391e"
+                "reference": "530d9744e3199bfaed2657dda10edc6383fd10e4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lucianobapo/erpnet-models/zipball/98160d86f8f3260069bacdb73d79bd4073d0391e",
-                "reference": "98160d86f8f3260069bacdb73d79bd4073d0391e",
+                "url": "https://api.github.com/repos/lucianobapo/erpnet-models/zipball/530d9744e3199bfaed2657dda10edc6383fd10e4",
+                "reference": "530d9744e3199bfaed2657dda10edc6383fd10e4",
                 "shasum": ""
             },
             "require": {
@@ -1502,7 +1502,45 @@
                     "email": "luciano.bapo@gmail.com"
                 }
             ],
-            "time": "2016-12-13 16:59:22"
+            "time": "2016-12-14 05:31:29"
+        },
+        {
+            "name": "ilhanet/erpnet-social-auth",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lucianobapo/erpnet-social-auth.git",
+                "reference": "730fff0d520f70328cef251085cd1a13ebfe35cd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lucianobapo/erpnet-social-auth/zipball/730fff0d520f70328cef251085cd1a13ebfe35cd",
+                "reference": "730fff0d520f70328cef251085cd1a13ebfe35cd",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/cache": "^5.3",
+                "laravel/socialite": "^2.0",
+                "laravelcollective/html": "dev-master",
+                "php": "^5.5.9 || ^7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ErpNET\\SocialAuth\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Luciano Porto",
+                    "email": "luciano.bapo@gmail.com"
+                }
+            ],
+            "time": "2016-12-14 05:20:03"
         },
         {
             "name": "ilhanet/erpnet-widget-resource",
@@ -1510,12 +1548,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lucianobapo/erpnet-widget-resource.git",
-                "reference": "e8cab8748b5315a99f564f661b8e4028e8e1cd86"
+                "reference": "a27ef0bd7e74c6ac1dff4bdeb29470a992b5d0e5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lucianobapo/erpnet-widget-resource/zipball/e8cab8748b5315a99f564f661b8e4028e8e1cd86",
-                "reference": "e8cab8748b5315a99f564f661b8e4028e8e1cd86",
+                "url": "https://api.github.com/repos/lucianobapo/erpnet-widget-resource/zipball/a27ef0bd7e74c6ac1dff4bdeb29470a992b5d0e5",
+                "reference": "a27ef0bd7e74c6ac1dff4bdeb29470a992b5d0e5",
                 "shasum": ""
             },
             "require": {
@@ -1540,7 +1578,7 @@
                     "email": "luciano.bapo@gmail.com"
                 }
             ],
-            "time": "2016-12-13 17:12:05"
+            "time": "2016-12-14 05:40:49"
         },
         {
             "name": "intervention/image",
@@ -2107,6 +2145,60 @@
             "time": "2016-12-13 15:00:08"
         },
         {
+            "name": "laravel/socialite",
+            "version": "2.0.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/socialite.git",
+                "reference": "aca8de9a93a28a119714e289c8bc599bd81aa88d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/socialite/zipball/aca8de9a93a28a119714e289c8bc599bd81aa88d",
+                "reference": "aca8de9a93a28a119714e289c8bc599bd81aa88d",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "~5.0|~6.0",
+                "illuminate/contracts": "~5.0",
+                "illuminate/http": "~5.0",
+                "illuminate/support": "~5.0",
+                "league/oauth1-client": "~1.0",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "~0.9",
+                "phpunit/phpunit": "~4.0|~5.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Laravel\\Socialite\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylorotwell@gmail.com"
+                }
+            ],
+            "description": "Laravel wrapper around OAuth 1 & OAuth 2 libraries.",
+            "keywords": [
+                "laravel",
+                "oauth"
+            ],
+            "time": "2016-11-01 18:49:10"
+        },
+        {
             "name": "laravelcollective/html",
             "version": "dev-master",
             "source": {
@@ -2418,6 +2510,69 @@
                 "rest"
             ],
             "time": "2016-08-29 18:01:47"
+        },
+        {
+            "name": "league/oauth1-client",
+            "version": "1.7.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thephpleague/oauth1-client.git",
+                "reference": "fca5f160650cb74d23fc11aa570dd61f86dcf647"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/oauth1-client/zipball/fca5f160650cb74d23fc11aa570dd61f86dcf647",
+                "reference": "fca5f160650cb74d23fc11aa570dd61f86dcf647",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "^6.0",
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "^0.9",
+                "phpunit/phpunit": "^4.0",
+                "squizlabs/php_codesniffer": "^2.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "League\\OAuth1\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ben Corlett",
+                    "email": "bencorlett@me.com",
+                    "homepage": "http://www.webcomm.com.au",
+                    "role": "Developer"
+                }
+            ],
+            "description": "OAuth 1.0 Client Library",
+            "keywords": [
+                "Authentication",
+                "SSO",
+                "authorization",
+                "bitbucket",
+                "identity",
+                "idp",
+                "oauth",
+                "oauth1",
+                "single sign on",
+                "trello",
+                "tumblr",
+                "twitter"
+            ],
+            "time": "2016-08-17 00:36:58"
         },
         {
             "name": "monolog/monolog",
@@ -4887,12 +5042,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "af91da3f2671006ff5d0628023de3b7ac4d1ef09"
+                "reference": "94cec036f7cc3b7bab26cc1aaeb78e99bdb6f579"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/af91da3f2671006ff5d0628023de3b7ac4d1ef09",
-                "reference": "af91da3f2671006ff5d0628023de3b7ac4d1ef09",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/94cec036f7cc3b7bab26cc1aaeb78e99bdb6f579",
+                "reference": "94cec036f7cc3b7bab26cc1aaeb78e99bdb6f579",
                 "shasum": ""
             },
             "require": {
@@ -4961,7 +5116,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2016-12-13 16:19:44"
+            "time": "2016-12-13 21:21:43"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
@@ -5703,6 +5858,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "ilhanet/erpnet-social-auth": 20,
         "ilhanet/erpnet-helper": 20,
         "ilhanet/erpnet-core": 20,
         "ilhanet/erpnet-migrates": 20,
