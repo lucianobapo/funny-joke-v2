@@ -1054,12 +1054,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Atlantic18/DoctrineExtensions.git",
-                "reference": "37d350300db8dec1a7fc909844e0df5703267fb1"
+                "reference": "9ac9111dfa7e4b89f8961f29bb64a385c31d5ed8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Atlantic18/DoctrineExtensions/zipball/37d350300db8dec1a7fc909844e0df5703267fb1",
-                "reference": "37d350300db8dec1a7fc909844e0df5703267fb1",
+                "url": "https://api.github.com/repos/Atlantic18/DoctrineExtensions/zipball/9ac9111dfa7e4b89f8961f29bb64a385c31d5ed8",
+                "reference": "9ac9111dfa7e4b89f8961f29bb64a385c31d5ed8",
                 "shasum": ""
             },
             "require": {
@@ -1125,7 +1125,7 @@
                 "tree",
                 "uploadable"
             ],
-            "time": "2016-11-28 17:57:52"
+            "time": "2016-12-14 20:12:38"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -1473,12 +1473,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lucianobapo/erpnet-models.git",
-                "reference": "530d9744e3199bfaed2657dda10edc6383fd10e4"
+                "reference": "62d7661cb9cb04a3f66e3dee2ebbef9346a560c9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lucianobapo/erpnet-models/zipball/530d9744e3199bfaed2657dda10edc6383fd10e4",
-                "reference": "530d9744e3199bfaed2657dda10edc6383fd10e4",
+                "url": "https://api.github.com/repos/lucianobapo/erpnet-models/zipball/62d7661cb9cb04a3f66e3dee2ebbef9346a560c9",
+                "reference": "62d7661cb9cb04a3f66e3dee2ebbef9346a560c9",
                 "shasum": ""
             },
             "require": {
@@ -1502,7 +1502,7 @@
                     "email": "luciano.bapo@gmail.com"
                 }
             ],
-            "time": "2016-12-14 05:31:29"
+            "time": "2016-12-15 02:06:28"
         },
         {
             "name": "ilhanet/erpnet-social-auth",
@@ -1510,16 +1510,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lucianobapo/erpnet-social-auth.git",
-                "reference": "730fff0d520f70328cef251085cd1a13ebfe35cd"
+                "reference": "fdc659850af0e1ee1040b9899495dc869d4d24d7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lucianobapo/erpnet-social-auth/zipball/730fff0d520f70328cef251085cd1a13ebfe35cd",
-                "reference": "730fff0d520f70328cef251085cd1a13ebfe35cd",
+                "url": "https://api.github.com/repos/lucianobapo/erpnet-social-auth/zipball/fdc659850af0e1ee1040b9899495dc869d4d24d7",
+                "reference": "fdc659850af0e1ee1040b9899495dc869d4d24d7",
                 "shasum": ""
             },
             "require": {
+                "guzzlehttp/guzzle": "^6.2",
                 "illuminate/cache": "^5.3",
+                "illuminate/support": "5.*",
                 "laravel/socialite": "^2.0",
                 "laravelcollective/html": "dev-master",
                 "php": "^5.5.9 || ^7.0"
@@ -1540,7 +1542,7 @@
                     "email": "luciano.bapo@gmail.com"
                 }
             ],
-            "time": "2016-12-14 05:20:03"
+            "time": "2016-12-15 05:25:23"
         },
         {
             "name": "ilhanet/erpnet-widget-resource",
@@ -1548,12 +1550,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lucianobapo/erpnet-widget-resource.git",
-                "reference": "a27ef0bd7e74c6ac1dff4bdeb29470a992b5d0e5"
+                "reference": "3cad9d7c52ca88552fc3a01fcd1493c344b20c8e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lucianobapo/erpnet-widget-resource/zipball/a27ef0bd7e74c6ac1dff4bdeb29470a992b5d0e5",
-                "reference": "a27ef0bd7e74c6ac1dff4bdeb29470a992b5d0e5",
+                "url": "https://api.github.com/repos/lucianobapo/erpnet-widget-resource/zipball/3cad9d7c52ca88552fc3a01fcd1493c344b20c8e",
+                "reference": "3cad9d7c52ca88552fc3a01fcd1493c344b20c8e",
                 "shasum": ""
             },
             "require": {
@@ -1578,7 +1580,7 @@
                     "email": "luciano.bapo@gmail.com"
                 }
             ],
-            "time": "2016-12-14 05:40:49"
+            "time": "2016-12-15 05:19:47"
         },
         {
             "name": "intervention/image",
@@ -1949,12 +1951,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel-doctrine/orm.git",
-                "reference": "9b32992e4672cf0ac597035e99e72c4ebd63a80e"
+                "reference": "e2a878060cea6781d33f0ca78ec33160045abaad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel-doctrine/orm/zipball/9b32992e4672cf0ac597035e99e72c4ebd63a80e",
-                "reference": "9b32992e4672cf0ac597035e99e72c4ebd63a80e",
+                "url": "https://api.github.com/repos/laravel-doctrine/orm/zipball/e2a878060cea6781d33f0ca78ec33160045abaad",
+                "reference": "e2a878060cea6781d33f0ca78ec33160045abaad",
                 "shasum": ""
             },
             "require": {
@@ -2014,7 +2016,7 @@
                 "laravel",
                 "orm"
             ],
-            "time": "2016-09-25 18:05:32"
+            "time": "2016-12-14 13:55:33"
         },
         {
             "name": "laravel/framework",
@@ -2022,12 +2024,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "5859b21bb0c5a76dd936983d86f056e35d871312"
+                "reference": "c79269bfcda5a976c664b5af407b94c727dafb47"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/5859b21bb0c5a76dd936983d86f056e35d871312",
-                "reference": "5859b21bb0c5a76dd936983d86f056e35d871312",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/c79269bfcda5a976c664b5af407b94c727dafb47",
+                "reference": "c79269bfcda5a976c664b5af407b94c727dafb47",
                 "shasum": ""
             },
             "require": {
@@ -2142,7 +2144,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2016-12-13 15:00:08"
+            "time": "2016-12-14 15:28:31"
         },
         {
             "name": "laravel/socialite",
@@ -3687,12 +3689,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-foundation.git",
-                "reference": "88a1d3cee2dbd06f7103ff63938743b903b65a92"
+                "reference": "7837fe9a3626ea76c2e5d42be43412c0b2240487"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/88a1d3cee2dbd06f7103ff63938743b903b65a92",
-                "reference": "88a1d3cee2dbd06f7103ff63938743b903b65a92",
+                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/7837fe9a3626ea76c2e5d42be43412c0b2240487",
+                "reference": "7837fe9a3626ea76c2e5d42be43412c0b2240487",
                 "shasum": ""
             },
             "require": {
@@ -3732,7 +3734,7 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "https://symfony.com",
-            "time": "2016-11-27 04:21:07"
+            "time": "2016-12-14 07:17:13"
         },
         {
             "name": "symfony/http-kernel",
@@ -4360,12 +4362,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/vlucas/phpdotenv.git",
-                "reference": "e5a077e823e5ea0b3714b78cd260738cd583aeeb"
+                "reference": "08b7fbc3cc7cf6fc63b18f35ea442d7885b8e910"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/e5a077e823e5ea0b3714b78cd260738cd583aeeb",
-                "reference": "e5a077e823e5ea0b3714b78cd260738cd583aeeb",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/08b7fbc3cc7cf6fc63b18f35ea442d7885b8e910",
+                "reference": "08b7fbc3cc7cf6fc63b18f35ea442d7885b8e910",
                 "shasum": ""
             },
             "require": {
@@ -4402,7 +4404,7 @@
                 "env",
                 "environment"
             ],
-            "time": "2016-11-28 23:08:37"
+            "time": "2016-12-14 21:01:27"
         },
         {
             "name": "webmozart/assert",
