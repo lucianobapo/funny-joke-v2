@@ -1473,12 +1473,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lucianobapo/erpnet-models.git",
-                "reference": "fd91d07edf65ba7949e1c0ea92eb0a6ae6b83b34"
+                "reference": "184bb25d0882663ad58e2d44a7c4ec883e5086c6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lucianobapo/erpnet-models/zipball/fd91d07edf65ba7949e1c0ea92eb0a6ae6b83b34",
-                "reference": "fd91d07edf65ba7949e1c0ea92eb0a6ae6b83b34",
+                "url": "https://api.github.com/repos/lucianobapo/erpnet-models/zipball/184bb25d0882663ad58e2d44a7c4ec883e5086c6",
+                "reference": "184bb25d0882663ad58e2d44a7c4ec883e5086c6",
                 "shasum": ""
             },
             "require": {
@@ -1502,7 +1502,7 @@
                     "email": "luciano.bapo@gmail.com"
                 }
             ],
-            "time": "2016-12-16 00:40:02"
+            "time": "2016-12-16 00:47:30"
         },
         {
             "name": "ilhanet/erpnet-social-auth",
