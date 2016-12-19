@@ -3,6 +3,8 @@
 
 ssh 104.198.25.167
 
+cd code/funny-joke-v2 && git pull && composer install && exit
+
 rsync -rvztPhe ssh /home/luciano/code/erpnet-widget-resource/resources/views/unversioned/home.blade.php 104.198.25.167:code/funny-joke-v2/resources/views/vendor/erpnetWidgetResource/unversioned/home.blade.php
 rsync -rvztPhe ssh /home/luciano/code/erpnet-widget-resource/resources/views/unversioned/navbar.blade.php 104.198.25.167:code/funny-joke-v2/resources/views/vendor/erpnetWidgetResource/unversioned/navbar.blade.php
 rsync -rvztPhe ssh /home/luciano/code/erpnet-widget-resource/resources/views/unversioned/show.blade.php 104.198.25.167:code/funny-joke-v2/resources/views/vendor/erpnetWidgetResource/unversioned/show.blade.php

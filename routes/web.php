@@ -21,3 +21,7 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index');
+
+//Route::resource('/post', '\ErpNET\Models\v1\Controllers\PostController');
+//Route::resource('/page', '\ErpNET\Models\v1\Controllers\PageController');
+//Route::resource('/user', '\ErpNET\Models\v1\Controllers\UserController');
