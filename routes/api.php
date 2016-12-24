@@ -1,5 +1,6 @@
 <?php
 
+use Dingo\Api\Routing\Router;
 use Illuminate\Http\Request;
 
 /*
@@ -46,3 +47,23 @@ Route::post('/ordem',  [
     'as'=>'json.ordem',
     'uses'=> 'JsonController@ordem'
 ]);
+
+$router = app(Router::class);
+
+$routeConfigV1 = [
+    'namespace' => 'App\Http\Controllers',
+//            'prefix' => $this->app['config']->get('debugbar.route_prefix'),
+];
+
+$router
+    ->version('v1', function (Router $router) use ($routeConfigV1) {
+        $router
+            ->group($routeConfigV1, function (Router $router) {
+
+                $router->get('/post/{post}/showFile/{providerId}/{file}', ['as'=>'post.showFile', 'uses'=>'PostController@showFile']);
+                $router->get('/post/{post}/showRandom/{providerId}/{file}', ['as'=>'post.showRandom', 'uses'=>'PostController@showRandom']);
+                $router->get('/post/{post}/random', ['as'=>'post.random', 'uses'=>'PostController@random']);
+//                $router->get('/post/{post}/edit', ['as'=>'post.edit', 'uses'=>'PostController@edit']);
+                $router->get('/', ['as'=>'post.home', 'uses'=>'PostController@home']);
+            });
+    });

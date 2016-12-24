@@ -17,7 +17,10 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        \App\Entities\PostEloquent::saving(function (\App\Entities\PostEloquent $post) {
+            $post->titleSlug = str_slug($post->title);
+            return true;
+        });
     }
 
     /**
@@ -40,5 +43,8 @@ class AppServiceProvider extends ServiceProvider
 
         if (class_exists(ErpnetSocialAuthServiceProvider::class))
             $this->app->register(ErpnetSocialAuthServiceProvider::class);
+
+        $this->app->bind(\ErpNET\Models\v1\Controllers\PostController::class, \App\Http\Controllers\PostController::class);
+        $this->app->bind(\ErpNET\Models\v1\Entities\PostEloquent::class, \App\Entities\PostEloquent::class);
     }
 }

@@ -3,9 +3,9 @@
 use ErpNET\Migrates\BaseMigration;
 use Illuminate\Database\Schema\Blueprint;
 
-class CreateSummariesTable extends BaseMigration {
+class CreatePagesTable extends BaseMigration {
 
-    protected $table = 'summaries';
+    protected $table = 'pages';
 
     /**
      * Run the migrations.
@@ -34,8 +34,16 @@ class CreateSummariesTable extends BaseMigration {
             $table->string('mandante')->index();
 
             // Campos
-            $table->timestamp('start_date')->default(DB::raw('CURRENT_TIMESTAMP'))->index();
-            $table->timestamp('end_date')->default(DB::raw('CURRENT_TIMESTAMP'))->index();
+//            $table->timestamp('start_date')->default(DB::raw('CURRENT_TIMESTAMP'))->index();
+//            $table->timestamp('end_date')->default(DB::raw('CURRENT_TIMESTAMP'))->index();
+
+            $table->integer('ordem')->unsigned()->nullable();
+            $table->string('rota')->nullable();
+            $table->string('nome')->nullable();
+            $table->string('h1')->nullable();
+            $table->string('h2')->nullable();
+            $table->string('view')->nullable();
+            $table->text('conteudo')->nullable();
         });
     }
 

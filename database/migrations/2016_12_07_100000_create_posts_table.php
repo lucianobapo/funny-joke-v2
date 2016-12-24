@@ -20,7 +20,7 @@ class CreatePostsTable extends BaseMigration {
             /**
              * Relacionamentos entre as tabelas
              */
-//            $table->integer('order_id')->unsigned()->index()->nullable();
+            $table->integer('page_id')->unsigned()->index()->nullable();
 
             /**
              * Campos de data
@@ -38,7 +38,9 @@ class CreatePostsTable extends BaseMigration {
 //            $table->timestamp('end_date')->default(DB::raw('CURRENT_TIMESTAMP'))->index();
 
             $table->string('title')->index();
+            $table->string('titleSlug')->nullable()->index();
             $table->string('description')->nullable();
+            $table->string('hint')->nullable();
             $table->string('paramProfileImageSize')->nullable();
 //            $table->string('paramProfileImagePosition')->nullable();
             $table->string('paramProfileImageX')->nullable();

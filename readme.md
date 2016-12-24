@@ -11,6 +11,8 @@ rsync -rvztPhe ssh /home/luciano/code/erpnet-widget-resource/resources/views/unv
 
 rsync -rvztPhe ssh /home/luciano/code/funny-joke-v2/.env.production 104.198.25.167:code/funny-joke-v2/.env
 
+php artisan vendor:publish --provider="ErpNET\Migrates\Providers\ErpnetMigratesServiceProvider" --force
+
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
 [![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
 [![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)

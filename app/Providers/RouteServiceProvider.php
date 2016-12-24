@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use App\Entities\PostEloquent;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
 
@@ -23,9 +24,15 @@ class RouteServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
-
         parent::boot();
+
+//        Route::model('post', PostEloquent::class);
+
+//        Route::bind('post', function ($value) {
+//            $postEloquent = new PostEloquent();
+//            $result = $postEloquent->where($postEloquent->getRouteKeyName(), $value)->first();
+//            return $result;
+//        });
     }
 
     /**
