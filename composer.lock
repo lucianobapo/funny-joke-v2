@@ -1438,12 +1438,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lucianobapo/erpnet-migrates.git",
-                "reference": "b449a7c9b6640ccc34adae32dbfbab2a5944105d"
+                "reference": "7ec64a960384705cf04c78b985f702fe86dd526b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lucianobapo/erpnet-migrates/zipball/b449a7c9b6640ccc34adae32dbfbab2a5944105d",
-                "reference": "b449a7c9b6640ccc34adae32dbfbab2a5944105d",
+                "url": "https://api.github.com/repos/lucianobapo/erpnet-migrates/zipball/7ec64a960384705cf04c78b985f702fe86dd526b",
+                "reference": "7ec64a960384705cf04c78b985f702fe86dd526b",
                 "shasum": ""
             },
             "require": {
@@ -1465,7 +1465,7 @@
                     "email": "luciano.bapo@gmail.com"
                 }
             ],
-            "time": "2016-12-28 00:00:59"
+            "time": "2016-12-28 01:16:55"
         },
         {
             "name": "ilhanet/erpnet-models",
