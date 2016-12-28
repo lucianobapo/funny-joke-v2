@@ -21,6 +21,8 @@ class AppServiceProvider extends ServiceProvider
             $post->titleSlug = str_slug($post->title);
             return true;
         });
+
+        \Route::model('post', \App\Entities\PostEloquent::class);
     }
 
     /**
@@ -46,5 +48,6 @@ class AppServiceProvider extends ServiceProvider
 
         $this->app->bind(\ErpNET\Models\v1\Controllers\PostController::class, \App\Http\Controllers\PostController::class);
         $this->app->bind(\ErpNET\Models\v1\Entities\PostEloquent::class, \App\Entities\PostEloquent::class);
+
     }
 }

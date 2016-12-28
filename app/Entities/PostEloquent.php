@@ -7,39 +7,6 @@ use ErpNET\Models\v1\Entities\PostEloquent as BasePostEloquent;
 
 class PostEloquent extends BasePostEloquent
 {
-    protected $fillable = [
-        'mandante',
-        'title',
-        'titleSlug',
-        'description',
-        'hint',
-        'file',
-        'file1',
-        'file2',
-        'file3',
-        'file4',
-        'file5',
-        'file6',
-        'file7',
-        'file8',
-        'file9',
-        'file10',
-        'file11',
-        'file12',
-        'file13',
-        'file14',
-        'file15',
-        'paramProfileImageSize',
-        'paramProfileImageX',
-        'paramProfileImageY',
-        'paramName',
-        'paramFirstName',
-        'paramNameSize',
-        'paramNameColor',
-        'paramNameX',
-        'paramNameY',
-    ];
-
     public function fileImageField($field){
         if (config('filesystems.default')=='public')
             return link_to_asset('storage/jokes/'.$this[$field], $this[$field], ['target'=>'_blank', 'title'=>$this[$field]]);
